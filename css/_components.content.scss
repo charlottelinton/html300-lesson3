@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+.main {
+    padding: 2rem;
+}
+
+// Adjusting universal box sizing
+* {
+  box-sizing: border-box;
+}
+
+//Page styling
+body, html {
+  height: 100%
+}
+
+body {
+  font-family: $font-stack;
+  color: $primary;
+  margin: 1em;
+  background-color: $bg-body;
+  font-size: 1.5rem;
+}
+
+main {
+  background-color: white;
+}
